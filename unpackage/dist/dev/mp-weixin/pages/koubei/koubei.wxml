@@ -1,0 +1,1 @@
+<view><view class="hot_goods"><view class="tit">商品列表</view><block wx:for="{{data}}" wx:for-item="item" wx:for-index="__i0__"><view class="good_list"><view class="good_item"><image src="{{item.pic}}"></image><view class="price"><text>{{item.costPrice}}</text></view><view class="name">{{item.commodityName}}</view></view></view></block></view></view>

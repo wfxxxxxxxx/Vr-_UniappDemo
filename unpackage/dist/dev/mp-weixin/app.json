@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/daiying/daiying",
+    "pages/koubei/koubei",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#00d600",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/popular_icon.png",
+        "selectedIconPath": "static/popular_active_icon.png"
+      },
+      {
+        "text": "待映",
+        "pagePath": "pages/daiying/daiying",
+        "iconPath": "static/coming_icon.png",
+        "selectedIconPath": "static/coming_active_icon.png"
+      },
+      {
+        "text": "口碑",
+        "pagePath": "pages/koubei/koubei",
+        "iconPath": "static/top_icon.png",
+        "selectedIconPath": "static/top_active_icon.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/my_icon.png",
+        "selectedIconPath": "static/my_active_icon.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
